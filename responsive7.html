@@ -25,6 +25,24 @@
         .splitbox img{
             width: 100%;
         }
+        .food img{
+            
+            width: 100%;
+        }
+        .food{
+            border: 2px solid red;
+            padding: 5px;
+            background-color: lightcoral;
+
+        }
+        .containertwo{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        
+        
         @media screen and (max-width: 576px) {
             .container {
                 flex-direction: column;
@@ -32,8 +50,19 @@
             .container .splitbox{
                 width: 100%;
             }
+            .containertwo{
+                grid-template-columns: repeat(1, 1fr);
+            }
             
         }
+        @media screen and (min-width: 577px) and (max-width: 900px) {
+            .containertwo{
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            
+        }
+      
     </style>
 </head>
 <body>
@@ -48,6 +77,58 @@
         <div class="splitbox"><img src="images/healthy-foods.webp" alt=""></div>
         <div class="splitbox"><img src="images/v3km5qmf-1400808066.avif" alt=""></div>
     </div>
-    
+    <section>
+        <h2>nbsvdfhbfhio</h2>
+        <div class="containertwo">
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-10tk</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptas quae assumenda quisquam voluptatum repudiandae expedita, amet sint ad quidem! Aliquam beatae nulla sequi fuga quidem minima error quos earum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-20tk</h3>
+                <p>Illum quisquam eum a perferendis ad sit aliquam ea provident pariatur. Voluptatem quisquam, laudantium porro temporibus delectus reiciendis corrupti itaque quidem modi, fugiat dolores libero quibusdam alias omnis. Amet, est.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-30tk</h3>
+                <p>Maxime ipsa nam recusandae tempora quisquam ex labore doloribus incidunt consequatur, facere laudantium qui, ad provident libero commodi sapiente accusantium rerum asperiores similique, maiores in exercitationem. Magni totam quae temporibus.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-40tk</h3>
+                <p>Maiores, explicabo? Vel dicta architecto earum voluptas, inventore voluptatum facilis ex consectetur distinctio quo excepturi placeat fugiat itaque ipsum quaerat repellat illo, quibusdam nostrum officia. Similique sunt voluptate itaque recusandae.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-50tk</h3>
+                <p>Similique expedita necessitatibus nam iusto voluptate fuga odio esse numquam voluptatibus assumenda minima, doloremque aut, consequatur ipsum quibusdam? Exercitationem modi corrupti esse, facere et ex sit est sed odio doloribus?</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-60tk</h3>
+                <p>Laudantium voluptatem cum fuga natus enim neque vel, culpa eos quidem iste cumque quisquam necessitatibus deleniti officia incidunt recusandae ut possimus architecto, itaque laboriosam soluta aperiam magni dicta. Deserunt, deleniti!</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-70tk</h3>
+                <p>Delectus quis vel accusamus dolorum perferendis minus voluptas ipsum ut! Distinctio explicabo repellat quasi, voluptas omnis ipsum sapiente eaque hic aliquid eveniet, commodi soluta non perferendis similique, cum earum id!</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/healthy-foods.webp" alt="">
+                <h3>price-80tk</h3>
+                <p>Ea, accusantium consequuntur. Et enim odit deleniti quisquam alias debitis amet itaque ipsa laudantium obcaecati laborum deserunt quis repellat, vero neque consectetur consequatur exercitationem nemo inventore maiores quia nobis optio.</p>
+                <button>order now</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
