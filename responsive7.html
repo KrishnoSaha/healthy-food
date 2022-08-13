@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 inportent things for responsive web sites</title>
+    <style>
+        body{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 10vw;
+        }
+        .foodsimg img{
+            width: 100%;
+        }
+        .container{
+            display: flex;
+        }
+        .container .splitbox{
+            width: 50%;
+        }
+        .splitbox img{
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            .container {
+                flex-direction: column;
+            }
+            .container .splitbox{
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>I follow a healthy diet routine</h1>
+    </section>
+    <section class="foodsimg">
+        <img src="images/healthy-foods.webp" alt="">
+
+    </section>
+    <div class="container">
+        <div class="splitbox"><img src="images/healthy-foods.webp" alt=""></div>
+        <div class="splitbox"><img src="images/v3km5qmf-1400808066.avif" alt=""></div>
+    </div>
+    
+</body>
+</html>
